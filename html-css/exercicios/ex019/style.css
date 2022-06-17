@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(170, 226, 170);
+}
+
+h1{
+    
+    text-align: center;
+    color: rgb(25, 112, 25);
+}
+
+h1#principal{
+    background-color: rgb(44, 112, 56);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h2{
+    color: rgb(36, 77, 36);
+}
+
+p{
+    text-indent: 40px;
+    text-align: justify;
+}
+
+.basico{
+    color: brown;
+}
+.tach{
+    color: blueviolet;
+}

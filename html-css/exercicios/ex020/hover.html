@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        
+       body{
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+
+       div > p{
+           display: none;
+       }
+
+       div:hover > p{
+           background-color: coral;
+           display: block;
+           color: white; 
+           width: 300px;
+
+       }
+
+    </style>
+</head>
+<body>
+    <h1>Vamos esconder uma frase</h1>
+    <p>Clica na frase abaixo</p>
+    <div>
+        Clica nessa frase!
+        <p>TEXTO ESCONDIDO</p>
+    </div>
+        <p>Fim do exemplo</p>
+</body>
+</html>
