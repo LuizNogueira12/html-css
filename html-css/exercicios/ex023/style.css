@@ -4,3 +4,30 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+table{
+    border: 1px solid black;
+    width: 400px;
+    border-collapse: collapse;
+    height: 400px;
+}
+
+td{
+    border: 1px solid black;
+    vertical-align: bottom;
+    padding: 8px;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+.linha{
+    background-color: brown;
+}
+
+.quadrado{
+    background-color: tomato;
+}
+
+.cor{
+    background-color: yellowgreen;
+}
