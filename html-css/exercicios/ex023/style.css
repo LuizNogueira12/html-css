@@ -3,3 +3,25 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+table{
+    border: 1px solid black;
+    width: 400px;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+}
+
+.linha{
+    background-color: royalblue;
+}
+
+.semlinha{
+    background-color: salmon;
+}
+
+.quadrado{
+    background-color: darkmagenta;
+}
