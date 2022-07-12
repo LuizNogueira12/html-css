@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+table{
+    border: 1px solid black;
+    width: 400px;
+    height: 100px;
+}
+
+thead{
+    background-color: darkgray;
+    color: white;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
