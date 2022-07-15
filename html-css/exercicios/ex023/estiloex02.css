@@ -7,6 +7,13 @@ table{
     border-collapse: collapse;
 }
 
+caption{
+    font-size: 1.5em;
+    font-weight: normal;
+    background-color: brown;
+    padding: 5px;
+}
+
 thead, tfoot{
     background-color: darkgray;
     color: white;
