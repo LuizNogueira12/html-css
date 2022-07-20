@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption{
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: gray;
+}
+
+div#container{
+    overflow-x: auto;
+    width: 50vw;
+    background-size: ;
+}
